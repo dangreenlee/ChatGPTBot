@@ -10,3 +10,4 @@ docker build -t chatbot . && docker run --env DISCORD_TOKEN='abc123' --env GPT_T
 ```
 
 ### Example:
+![chatgptbot](https://user-images.githubusercontent.com/42418700/211230637-02c0395c-1eb0-4663-bf8f-f0a31b0d44f3.PNG)
