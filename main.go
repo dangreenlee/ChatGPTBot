@@ -127,7 +127,7 @@ func queryGPT3(prompt string) (response string, err error) {
 	// Set up the HTTP request to the GPT3 API
 	url := "https://api.openai.com/v1/completions"
 	reqBody := &GPT3Request{
-		Model:       "text-davinci-003",
+		Model:       "gpt-3.5-turbo",
 		Prompt:      prompt,
 		MaxTokens:   128,
 		Temperature: 0.9,
